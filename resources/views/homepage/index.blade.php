@@ -1,38 +1,59 @@
-
-<!--
-I begin to speak only when I am certain
-what I will say is not better left unsaid.
-
-- Cato the Younger
-I'm keeping the qoute
--->
 @extends('template.RequiredLayout')
 
 @section('page title','Gotta try')
-@section("stylesheets")
-<link rel="stylesheets" href=" asset('css/app.css') ">
 
-@section('header')
+@section("stylesheets")
+    {{-- <style>
+        div{
+            background-color: green;
+        }
+    </style> --}}
+    {{-- I'm a fucking idiot --}}
+    <link rel="stylesheet" href=" {{asset('css/HomepageStyle.css') }}">
+    <script defer src="{{asset('js/HomepageScript.js')}}" ></script>
+@endsection
+
+@section('header content')
 <div>
-    <h3>So this is the header which I absolutely have no idea what to do with</h3>
+    <h3>HEADER</h3>
 </div>
+@endsection
 
 @section('before main content')
 <div>
+    <h2>Before main content</h2>
     <p>Finally free from all the boilerplate</p>
 </div>
+@endsection
 
 @section('main content')
-<div>
-    <h1>This is The main content: I have no idea what to put here</h1>
-    <p>Some words here, this is to test random shit.</p>
+<div class="mainContent">
+    <div class="leftSideContent">
+        <div class="lcontent">
+            <h4>Left side content</h4>
+        </div>
+    </div>
+    <div class="centerContent">
+        <h1>MAIN CONTENT: I have no idea what to put here</h1>
+        <p>CONTENTS: Some words here, this is to test random shit.</p>
+    </div>
+    <div class="rightSideContent">
+        <h4>Right side content</h4>
+    </div>
 </div>
+
+@endsection
+
+@section('footer content')
+    <div class="footercontent">
+        <h3>
+            FOOTER
+        </h3>
+    </div>
+@endsection
 
 @section('after main content')
 <div>
-    <p>No idea what goes here</p>
+    <p>AFTER MAIN CONTENT</p>
 </div>
-@section('footer')
-<div>
-    <h3>Something should be inside the footer</h3>
-</div>
+@endsection

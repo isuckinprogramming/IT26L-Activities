@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield("page title","Template title")</title>
-    @yield("stylesheets")
+
+    {{-- <link rel="stylesheet" href=" asset('css/app.css') "> --}}
+    {{-- <link rel="stylesheet" href="testingcss/HomepageStyle.css"> --}}
+        @yield("stylesheets")
 </head>
 <body>
     {{-- header{lorem10}+nav>a{Link $ to be filled}*5^main>p{lorem50}^footer{lorem20} --}}
     <header>
         @yield("header content")
+        <div>
+            <p>test</p>
+        </div>
     </header>
     <nav>
         @yield("nav links")
