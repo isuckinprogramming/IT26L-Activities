@@ -26,9 +26,6 @@ body{
 nav{
     background-color: #FBC3BC;
 }
-.leftSideContent, .rightSideContent{
-    background-color: #ee4b35;
-}
 .after-main, .before-main{
     background-color: #FBC3BC;
 }
@@ -58,9 +55,9 @@ code{
 } */
 
 .mainContent{
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr ;
-    column-gap: 1.5%;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 3fr 1fr ; */
+    /* column-gap: 1.5%; */
     justify-content: center;
     text-align: justify;
 
@@ -115,7 +112,7 @@ nav{
 
 }
 
-.centerContent , .leftSideContent, .rightSideContent{
+.centerContent {
     padding-top:2%;
     padding-left:3%;
     padding-right:3%;

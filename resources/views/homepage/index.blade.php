@@ -33,24 +33,6 @@
 
 @section('main content')
 <div class="mainContent">
-    <div class="leftSideContent">
-        <div class="lcontent">
-            <h4>SIDE BAR</h4>
-            <br><br>
-            <p>I have no idea what goes here,
-                when I was making this, I tried to copy the look of
-                the example in w3schols.
-                <br><br>
-                Turns out copying whatever I see
-                that works, will not work for my
-                very specific needs.
-                <br><br>
-                Oh no, anyway.
-                <br><br>
-                Ignore this side bar.
-            </p>
-        </div>
-    </div>
     <div class="centerContent">
         <h1 class="title-of-main-content">Creation Process: This Project</h1>
         <p>I don't have a name for this project so I will keep on referring to this
@@ -136,10 +118,7 @@
             asking chat gpt what a unit of measurement is for and what it does.
             <br><br>
             One day, some daaayy, I will do the things that I am typing.
-
-    </div>
-    <div class="rightSideContent">
-        <h4>Right side content</h4>
+        </p>
         <p>
             <strong>I did not use any images for the reasons:</strong>
             <br><br>
