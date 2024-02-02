@@ -109,6 +109,10 @@ nav{
 .header-content{
     text-align: center;
     font-size: 300%;
+
+    padding-top: 10%;
+    padding-bottom: 4%;
+
 }
 
 .centerContent , .leftSideContent, .rightSideContent{
@@ -122,11 +126,11 @@ nav{
 
     border-radius: 25px ;
 }
-/* .leftSideContent, .rightSideContent{
-    border-radius: 25px ;
-    padding-top:2%;
-    padding-left:3%;
-    padding-right:3%;
-    padding-bottom:10%;
+
+.footercontent{
+    font-size: 200%;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    margin-top: 2%;
 }
- */

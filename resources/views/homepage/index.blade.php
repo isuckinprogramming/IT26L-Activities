@@ -52,8 +52,8 @@
         </div>
     </div>
     <div class="centerContent">
-        <h1 class="title-of-main-content">Creation process this Project</h1>
-        <p>First off, I don't have a name for this project so I will keep on referring to this
+        <h1 class="title-of-main-content">Creation Process: This Project</h1>
+        <p>I don't have a name for this project so I will keep on referring to this
             project as this project.
             <br>
             <br>
@@ -134,5 +134,9 @@
         <h6>
             I don't have anything here.....
         </h6>
+        <p>
+            I cannot set the border-radius of the footer element. I tried and
+            I failed.
+        </p>
     </div>
 @endsection
