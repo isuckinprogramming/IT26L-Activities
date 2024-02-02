@@ -145,6 +145,8 @@
              <br>
             <img src="{{asset('images/entry1/trying out weird shit in designing the page.PNG')}}" alt="Weird stuff during design process">
             <br>
+            <img src="{{asset('images/entry1/The side bar taking a huge portion of the width of the container, minimizing other elements..PNG')}}" alt="Problems with styling sidebar">
+            <br>
             I think I have to study more about the units of measurement in CSS,
             studying the available options for relative positioning and measurement
             would greatly help. I spent majority of my time searching the web and
@@ -184,6 +186,9 @@
             I can edit without worry and there will be back-up in case
             I want to revert.
             <br>
+            <br>
+            <img src="{{asset('images/entry1/New git branch for adding images.PNG')}}"
+            alt="feature branch for images">
             <br>
             <br>
             I want to follow a stack-like structure for the text and images.
