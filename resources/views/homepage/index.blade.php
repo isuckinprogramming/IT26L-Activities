@@ -1,6 +1,6 @@
 @extends('template.RequiredLayout')
 
-@section('page title','Gotta try')
+@section('page title','Task 4')
 
 @section("head tags")
     {{-- <style>
@@ -117,10 +117,54 @@
             <br>
             I think, I am going to take a long time when in learning how the tool works before
             I actually work on what I want, displaying the stored data.
+            <br><br>
+            The design process is messy. Building without a plan, and going straigth to code
+            is definitely not suitable for the long run.
+            <br><br>
+            A good example of a problem that I ran into while making this homepage without planning
+            is that I don't have a proper naming scheme for the images that I am planning to use.
+            <br><br>
+            Now I am stuck trying to type out the long names I used for the images.
+            <br><br>
+            Creating the styles for this homepage was a good reviewer for the basics of CSS,
+            I explored how to use the CSS flex and grid for creating layouts. I would have to use
+            them sooner or later.
+            <br><br>
+            I think I have to study more about the units of measurement in CSS,
+            studying the available options for relative positioning and measurement
+            would greatly help. I spent majority of my time searching the web and
+            asking chat gpt what a unit of measurement is for and what it does.
+            <br><br>
+            One day, some daaayy, I will do the things that I am typing.
+
     </div>
     <div class="rightSideContent">
         <h4>Right side content</h4>
-        <p>This portion is actually useless</p>
+        <p>
+            <strong>I did not use any images for the reasons:</strong>
+            <br><br>
+            1.project because I am not sure how the images
+            will behave with the grid and flex. I am
+            still on the process of reviewing the basics
+            of css, so I do not want to complicate things
+            and spend most of the time debugging.(Which
+            I am not familiar, IDK how it works
+            with a laravel project and the browser environment)
+            <br><br>
+            The page looks dry without the images. I think it is
+            better for the page to be dry
+            looking rather than be littered with images that
+            breaks the layout and style.
+            <br>
+            <br>
+            <br>
+            2. I did not plan for this project.
+            <br>
+            <br>
+            <br>
+            <br>
+            My bad
+        </p>
     </div>
 </div>
 
