@@ -1,14 +1,14 @@
 /*
 Color scheme
-body #FFE3E0
-header #DB4333
-footer #DB4333
-nav #FBC3BC
-center #F38375
-left #F38375
-right #F38375
+               body #FFE3E0
+             header #DB4333
+             footer #DB4333
+                nav #FBC3BC
+             center #F38375
+               left #F38375
+              right #F38375
 before main content #FBC3BC
-after main content
+ after main content
 
 */
 
@@ -50,16 +50,42 @@ nav{
     color:black;
     text-decoration: none;
 }
+code{
+    color: white;
+    background-color: rgb(119, 78, 78);
+
+    /* Padding and margin adjustments */
+    padding:2px;
+    margin:0px;
+}
 /* COLORS  */
 
 
-.mainContent{
-    display:flex;
+
+/* widht and height adjustments */
+.rightSideContent,.leftSideContent{
+    width: 15%;
+    height: 80%;
+    min-height: 80%;
+}
+.centerContent {
+    width: 65%;
+    height: 80%;
+}
+ul{
+    display: flex;
     justify-content: center;
-    gap:2.5%;
 }
 
+.mainContent{
+    /* display:flex; */
+    /* flex-direction: column; */
+    height: 80%;
 
-.rightSideContent, .leftSideContent, .centerContent{
+    justify-content: center;
+    gap:2.5%;
+    text-align: justify;
+}
+.rightSideContent,.centerContent,.leftSideContent{
     display: inline-block;
 }
