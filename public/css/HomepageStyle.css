@@ -1,37 +1,65 @@
-h3{
-    background-color: rgb(179, 91, 238);
-    font-size: 1.3em;
+/*
+Color scheme
+body #FFE3E0
+header #DB4333
+footer #DB4333
+nav #FBC3BC
+center #F38375
+left #F38375
+right #F38375
+before main content #FBC3BC
+after main content
+
+*/
+
+*{
+    /* bare minimum padding & margin
+     for literally every container element */
+    padding: 10px;
+    margin: 10px;
 }
 div{
     /* background-color: blue; */
     margin: 20px;
 }
-main{
-    background-color: rgb(152, 152, 233);
+
+/* COLORS  */
+.mainContent{
+    background-color: #F38375;
 }
-p{
-    font-weight: bold;
+
+footer, header{
+    background-color: #DB4333 ;
 }
+body{
+    background-color: #FFE3E0;
+}
+nav{
+    background-color: #FBC3BC;
+}
+.leftSideContent, .rightSideContent{
+    background-color: #ee4b35;
+}
+.after-main, .before-main{
+    background-color: #FBC3BC;
+}
+.centerContent{
+    background-color: #f3e4ddf6;
+}
+.navigate-links{
+    color:black;
+    text-decoration: none;
+}
+/* COLORS  */
+
 
 .mainContent{
     display:flex;
     justify-content: center;
-    gap:20px;
+    gap:2.5%;
 }
 
-footer{
-    position:relative;
-}
 
-.centerContent{
-    background-color: rgb(148, 243, 148);
-}
-.rightSideContent{
-    background-color: rgb(243, 149, 149);
-}
-.leftSideContent{
-    background-color: rgb(248, 248, 189);
-}
 .rightSideContent, .leftSideContent, .centerContent{
     display: inline-block;
 }

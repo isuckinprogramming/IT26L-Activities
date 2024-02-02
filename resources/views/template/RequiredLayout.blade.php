@@ -15,9 +15,6 @@
         header{lorem10}+nav>a{Link $ to be filled}*5^main>p{lorem50}^footer{lorem20} --}}
     <header>
         @yield("header content")
-        <div>
-            <p>test</p>
-        </div>
     </header>
     <nav>
         @yield("nav links")
