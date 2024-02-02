@@ -38,43 +38,47 @@ nav{
 .navigate-links{
     color:black;
     /* text-decoration: none; */
+    padding: 20%;
 }
 code{
     color: white;
     background-color: rgb(119, 78, 78);
 
-    /* Padding and margin adjustments */
     padding:2px;
     margin:0px;
 }
 /* COLORS  */
 
 /* LAYOUT ADJUSTMENTS */
-body{
+/* body{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 5fr 1fr 2fr;
+    width:100%;
 
-}
+} */
+
 .mainContent{
-    /* display:flex; */
-    /* flex-direction: row; */
-
     display: grid;
     grid-template-columns: 1fr 3fr 1fr ;
-
-    column-gap: 3%;
-    /* grid-template-rows: 100%; */
-    /* height: 80%; */
-    width: 100%;
+    column-gap: 1.5%;
     justify-content: center;
-    /* gap:2.5%; */
     text-align: justify;
+
+
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 5%;
+    padding-bottom: 8%;
+
+    border-top-right-radius: 4%;
+    border-top-left-radius: 4%;
+    border-bottom-left-radius: 7%;
+    border-bottom-right-radius: 7%;
 }
 
 nav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* grid-template-rows: 1fr 2fr 1fr; */
 
     justify-content: center;
     text-align: justify;
@@ -87,7 +91,8 @@ nav{
 .navigate-links{
     flex: 1;
     margin:20px;
-    padding: 20px;
+    padding: 20%;
+    font-size: 100%;
     background-color: #ed8577;
     border-radius: 23px;
     text-align: center;
@@ -97,13 +102,31 @@ nav{
     transition-duration:500ms;
     color: white;
     font-size: large;
-    padding:10px;
+    padding:10%;
     background-color: #e92f17;
 }
-/* LAYOUT ADJUSTMENTS */
 
-/* HEADER ADJUSTMENTS */
 .header-content{
     text-align: center;
-    font-size: xx-large;
+    font-size: 300%;
 }
+
+.centerContent , .leftSideContent, .rightSideContent{
+    padding-top:2%;
+    padding-left:3%;
+    padding-right:3%;
+    padding-bottom:10%;
+
+    text-align: justify;
+    font-size: 155%;
+
+    border-radius: 25px ;
+}
+/* .leftSideContent, .rightSideContent{
+    border-radius: 25px ;
+    padding-top:2%;
+    padding-left:3%;
+    padding-right:3%;
+    padding-bottom:10%;
+}
+ */

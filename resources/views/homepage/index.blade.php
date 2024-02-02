@@ -15,10 +15,10 @@
 
 @section("nav links")
     {{-- ul>(li>a{Link $:To be filled with}[class="navigate-links" href="#"])*4 --}}
-    <a href="#" class="navigate-links">Link 1:To be filled with</a>
-    <a href="#" class="navigate-links">Link 2:To be filled with</a>
-    <a href="#" class="navigate-links">Link 3:To be filled with</a>
-    <a href="#" class="navigate-links">Link 4:To be filled with</a>
+    <a href="#" class="navigate-links">Link 1:no link</a>
+    <a href="#" class="navigate-links">Link 2:no link</a>
+    <a href="#" class="navigate-links">Link 3:no link</a>
+    <a href="#" class="navigate-links">Link 4:no link</a>
 @endsection
 
 @section('header content')
@@ -28,14 +28,6 @@
         <h1>I suck in CSS</h1>
         <p>Garbage below</p>
     </div>
-</div>
-@endsection
-
-@section('before main content')
-<div class="before-main">
-    <h2>Before main content</h2>
-    <p>Finally free from all the boilerplate,
-        now I just have to worry about my actual content.</p>
 </div>
 @endsection
 
@@ -139,11 +131,8 @@
         <h3>
             FOOTER
         </h3>
+        <h6>
+            I don't have anything here.....
+        </h6>
     </div>
-@endsection
-
-@section('after main content')
-<div class="after-main">
-    <p>AFTER MAIN CONTENT</p>
-</div>
 @endsection
