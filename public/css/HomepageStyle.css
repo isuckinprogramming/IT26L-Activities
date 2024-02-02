@@ -29,7 +29,7 @@ nav{
 .after-main, .before-main{
     background-color: #FBC3BC;
 }
-.centerContent{
+.center-content{
     background-color: #f3e4ddf6;
 }
 .navigate-links{
@@ -67,10 +67,7 @@ code{
     padding-top: 5%;
     padding-bottom: 8%;
 
-    border-top-right-radius: 4%;
-    border-top-left-radius: 4%;
-    border-bottom-left-radius: 7%;
-    border-bottom-right-radius: 7%;
+    border-radius: 57px;
 }
 
 nav{
@@ -112,7 +109,7 @@ nav{
 
 }
 
-.centerContent {
+.center-content {
     padding-top:2%;
     padding-left:3%;
     padding-right:3%;
@@ -123,7 +120,12 @@ nav{
 
     border-radius: 25px ;
 }
-
+h4{
+    text-align: center;
+    background-color: #ff9b73;
+    padding-top:1.3%;
+    padding-bottom:0.8%;
+}
 .footercontent{
     font-size: 200%;
     text-align: center;
