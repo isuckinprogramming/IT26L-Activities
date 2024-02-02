@@ -2,7 +2,7 @@
 
 @section('page title','Gotta try')
 
-@section("stylesheets")
+@section("head tags")
     {{-- <style>
         div{
             background-color: green;

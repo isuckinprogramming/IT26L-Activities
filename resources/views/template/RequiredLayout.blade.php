@@ -8,10 +8,11 @@
 
     {{-- <link rel="stylesheet" href=" asset('css/app.css') "> --}}
     {{-- <link rel="stylesheet" href="testingcss/HomepageStyle.css"> --}}
-        @yield("stylesheets")
+    @yield("head tags")
 </head>
 <body>
-    {{-- header{lorem10}+nav>a{Link $ to be filled}*5^main>p{lorem50}^footer{lorem20} --}}
+    {{-- used this shit to get done, but wwrong shit
+        header{lorem10}+nav>a{Link $ to be filled}*5^main>p{lorem50}^footer{lorem20} --}}
     <header>
         @yield("header content")
         <div>
