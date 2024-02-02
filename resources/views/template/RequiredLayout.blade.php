@@ -13,17 +13,28 @@
 <body>
     {{-- used this shit to get done, but wwrong shit
         header{lorem10}+nav>a{Link $ to be filled}*5^main>p{lorem50}^footer{lorem20} --}}
+    {{-- 1 --}}
     <header>
         @yield("header content")
     </header>
+    {{-- 2 --}}
     <nav>
         @yield("nav links")
     </nav>
-    @yield("before main content")
+    {{-- 3 --}}
+    <div>
+        @yield("before main content")
+    </div>
+
+    {{-- 4 --}}
     <main>
         @yield("main content")
     </main>
-    @yield("after main content")
+    {{-- 5 --}}
+    <div>
+        @yield("after main content")
+    </div>
+    {{-- 6 --}}
     <footer>
         @yield("footer content")
     </footer>

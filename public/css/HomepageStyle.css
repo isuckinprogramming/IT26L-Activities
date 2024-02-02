@@ -12,17 +12,6 @@ before main content #FBC3BC
 
 */
 
-*{
-    /* bare minimum padding & margin
-     for literally every container element */
-    padding: 10px;
-    margin: 10px;
-}
-div{
-    /* background-color: blue; */
-    margin: 20px;
-}
-
 /* COLORS  */
 .mainContent{
     background-color: #F38375;
@@ -48,7 +37,7 @@ nav{
 }
 .navigate-links{
     color:black;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 code{
     color: white;
@@ -60,32 +49,61 @@ code{
 }
 /* COLORS  */
 
+/* LAYOUT ADJUSTMENTS */
+body{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 5fr 1fr 2fr;
 
-
-/* widht and height adjustments */
-.rightSideContent,.leftSideContent{
-    width: 15%;
-    height: 80%;
-    min-height: 80%;
 }
-.centerContent {
-    width: 65%;
-    height: 80%;
-}
-ul{
-    display: flex;
-    justify-content: center;
-}
-
 .mainContent{
     /* display:flex; */
-    /* flex-direction: column; */
-    height: 80%;
+    /* flex-direction: row; */
 
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr ;
+
+    column-gap: 3%;
+    /* grid-template-rows: 100%; */
+    /* height: 80%; */
+    width: 100%;
     justify-content: center;
-    gap:2.5%;
+    /* gap:2.5%; */
     text-align: justify;
 }
-.rightSideContent,.centerContent,.leftSideContent{
-    display: inline-block;
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 2fr 1fr; */
+
+    justify-content: center;
+    text-align: justify;
+
+    padding:2%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.navigate-links{
+    flex: 1;
+    margin:20px;
+    padding: 20px;
+    background-color: #ed8577;
+    border-radius: 23px;
+    text-align: center;
+}
+
+.navigate-links:hover{
+    transition-duration:500ms;
+    color: white;
+    font-size: large;
+    padding:10px;
+    background-color: #e92f17;
+}
+/* LAYOUT ADJUSTMENTS */
+
+/* HEADER ADJUSTMENTS */
+.header-content{
+    text-align: center;
+    font-size: xx-large;
 }
